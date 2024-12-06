@@ -28,7 +28,7 @@ def test():
     end_time = time.time()
 
     duration = (end_time - start_time) * 1000
-    print(f"Duration: {duration:.2f} ms")
+    print(f"{duration:.2f} ms")
     return duration
 
 def main():
